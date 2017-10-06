@@ -4,6 +4,11 @@ html {
   font-size: 1.125rem;
   list-style: 1.5;
 }
-h1, nav, h2, {
+
+h1, h2, nav {
   font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2 {
+  color: #3f1622;
 }
