@@ -4,3 +4,6 @@ html {
   font-size: 1.125rem;
   list-style: 1.5;
 }
+h1, nav, h2, {
+  font-family: 'PT Sans', sans-serif;
+}
