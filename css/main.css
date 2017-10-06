@@ -28,3 +28,11 @@ figcaption {
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
 }
+
+.quote {
+  font-size: 1.5rem;
+}
+
+dt {
+  font-weight: bold;
+}
