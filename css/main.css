@@ -18,3 +18,13 @@ h1, h2 {
   color: #8f2440;
   font-weight: bold;
 }
+
+figcaption {
+  text-align: center;
+}
+
+.harvest {
+  font-size: 1.5rem;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
