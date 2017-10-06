@@ -2,7 +2,8 @@ html {
   font-family: 'PT Serif', serif;
   background-color: #c9b5ab;
   font-size: 1.125rem;
-  list-style: 1.5;
+  line-height: 1.5;
+  color: #222;
 }
 
 h1, h2, nav {
@@ -11,4 +12,9 @@ h1, h2, nav {
 
 h1, h2 {
   color: #3f1622;
+}
+
+:link {
+  color: #8f2440;
+  font-weight: bold;
 }
