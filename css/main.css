@@ -1,26 +1,29 @@
 html {
   font-family: "PT Serif", serif;
   background-color: #c9b5ab;
-  font-size: 1.125rem;
   font-weight: normal;
   line-height: 1.5;
   color: #222;
+}
+
+h1 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 img {
   width: 100%;
 }
 
-h1, h2, nav {
+h1, h2 {
   font-family: "PT Sans", sans-serif;
+  color: #3f1622;
   font-weight: bold;
 }
 
-ol, li {
-  list-style-type: none;
-}
-h1, h2 {
-  color: #3f1622;
+p {
+  font-size: .8rem;
 }
 
 a {
@@ -38,12 +41,9 @@ a:hover {
   text-decoration: underline;
 }
 
-.common {
-  list-style-type: lower-greek
-}
-
 figcaption {
   text-align: center;
+  font-style: italic;
 }
 
 .harvest {
@@ -54,12 +54,28 @@ figcaption {
 
 .quote {
   font-size: 1.5rem;
+  font-style: italic;
 }
 
-dt {
+.nutrition {
   font-weight: bold;
 }
 
 footer {
+  font-size: .8rem;
+}
+
+.nav {
+  list-style-type: none;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+}
+
+.common {
+  list-style-type: lower-greek;
+}
+
+.tags {
+  list-style-type: circle;
   font-size: .8rem;
 }
